@@ -28,8 +28,8 @@ class Revista(MaterialBibliografico):
         print(f"Categoría: {self.categoria}")
 
 # Creación de objetos y demostración de interacción
-libro = Libro("El Señor de los Anillos", "J.R.R. Tolkien", "Fantasía")
-revista = Revista("National Geographic", "Varios", "Ciencia")
+libro = Libro("El Señor de los Anilloss", "J.R.R. Tolkien", "Fantasía")
+revista = Revista("National Geographic", "AMY", "Ciencia")
 
 libro.mostrar_info()
 print()  # Línea en blanco para separar salidas
