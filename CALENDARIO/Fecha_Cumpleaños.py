@@ -13,6 +13,8 @@ mm = 8     # mes
 nacimiento = datetime(2004, 8, 24)  # Cambia esto a la fecha de nacimiento deseada
 edad_en_2080 = (datetime(yy, mm, 1) - nacimiento).days // 365
 
+
+
 # Mostrar el calendario y la información
 print(f"Fecha actual: {fecha_actual}")
 print(f"Calendario de {calendar.month_name[mm]} {yy}:")
